@@ -27,10 +27,10 @@ while (iiiiii < clients.length) {
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
 for (let iii = 0; numbers.length > iii; iii += 1) {
-    console.log("iii: ",numbers[iii]);
-    if (iii[6]) {
-     break;
+  if (iii === 7) {
+    break;
 }
+    console.log("iii: ",numbers[iii]);
 }
 
 let n = 10;
